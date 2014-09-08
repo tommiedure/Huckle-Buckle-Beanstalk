@@ -1,0 +1,166 @@
+/*******************************
+			BODY
+*******************************/
+body {
+	/*background:  #434A54;*/
+	height: 100%;
+	background-color: #171814;
+
+
+}
+
+
+
+
+/*******************************
+			HEADER
+*******************************/
+header {
+	width: 100%;
+	height: 4em;
+	background-color: #171814;
+	border-bottom:.085em solid #BEC400;
+}
+
+
+.mainHeader {
+	margin-left:3%;
+	font-size: 2em;
+	color: #BEC400;
+	padding-top: 1%;
+}
+
+
+
+/*******************************
+			SECTION
+*******************************/
+.sectionBody {
+	width: 40%;
+	margin: auto auto;
+	margin-top: 5%;
+	border:.15em solid #BEC400;
+	background: url(../img/hotcold.jpg) no-repeat;
+	background-size: cover;
+	border-radius: 15%;
+
+}
+
+.userInput {
+	width: 50%;
+	margin-left: 25%;
+	margin-top: 20%;
+} 
+
+.container ul li {
+	display: inline-block;
+	/*background-color: #BEC400;*/
+	/*margin-left: 5%;*/
+	width: 25%;
+	background-color: rgba(190,196,0,.4);
+	/*padding-top: 5px;
+	padding-bottom:5px;*/
+	
+}
+.container ul li:first-child {
+	margin-left: 25%;
+}
+
+.newBtn {
+	font-size: 15px;
+}
+button {
+	border:none;
+	width: 100%;
+	background-color: rgba(190,196,0,.2); 
+}
+ #one {
+	border-bottom-left-radius: 70%;
+	text-align: center;
+	padding: 8px 8px 8px 8px;
+	border-bottom:1px solid #fff;
+}
+ #two {
+	border-bottom-right-radius: 70%;
+	text-align: center;
+	padding: 8px 8px 8px 8px;
+	border-bottom:1px solid #fff;
+}
+
+#two:hover {
+	border-bottom:1px solid #000;
+}
+#one:hover {
+	border-bottom:1px solid #000;
+}
+
+
+
+
+
+
+.userStatus span {
+	/*color: #fff;*/
+	font-size: 20px;
+	font-family: sans-serif;
+	text-align: center;
+
+}
+
+.userStatus {
+	font-size: 20px;
+	color: #fff;
+	padding: 5px 8px 5px 8px;
+	background-color: rgba(40,40,40,0.1);
+	width: 50%;
+	margin: auto auto;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	height: 25px;
+	text-align: center;
+}
+
+
+
+/*******************************
+		CONTAINER
+*******************************/
+.container p {
+	color: #fff;
+	margin: 20px auto;
+	width: 60%;
+	text-align: center;
+	font-size: 25px;
+	font-family: candara;
+
+}
+
+/*******************************
+			FOOTER
+*******************************/
+
+
+/*******************************
+			PROGRESBAR
+*******************************/
+
+.progBar{
+    width: 60%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    display:inline-block;
+    /*margin:10px 10px 5px 5px;*/
+    vertical-align:top;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+.progressbar {
+    color: #fff;
+    text-align: right;
+    height: 25px;
+    width: 0;
+    background-color: #0ba1b5;
+    border-radius: 3px;
+}

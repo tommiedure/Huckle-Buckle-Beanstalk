@@ -68,10 +68,6 @@ $( document ).ready(function() {
 				toHtml("You Win !!!");
 
 
-
-				//This code adds myAttr attribute with the value of 10
-				/*$("#prog").attr("value", "10");*/
-
 				
 			}
 
@@ -86,18 +82,22 @@ $( document ).ready(function() {
 				if(compareVal1 > compareVal2)
 					{
 					 toHtml("getting Colder");
-					 setProgress(progressValue);
+					/* setProgress(progressValue);*/
 					}
 				else if(compareVal1  < compareVal2)
 					{
-					 /*toHtml("getting Hotter" + systemGuess +" "+ compareVal1+" "+compareVal2);*/
+					 
 					 toHtml("getting Hotter");
-					setProgress(progressValue);
+					
 					}
 
 					//keep the uses guess for the next one
 
 					oldGuess=guessPercent;
+					//calculates for the progress bar
+					var deduce = Math.abs(systemGuess - oldGuess);
+					var pBar = Math.abs(100 - deduce);
+					setProgress(pBar);
 			}
 
 
@@ -105,5 +105,3 @@ $( document ).ready(function() {
 
 
 });
-
-//this is to get the input from the user
